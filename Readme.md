@@ -12,6 +12,8 @@
 
 ![Business Landing Page](./Business%20Landing%20Page.png)
 
+![Time](https://img.shields.io/badge/TIme-5%20Hours-yellow "Time taken to complete this project")
+
 <br>
 
 #### Live link to the project 👇
