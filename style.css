@@ -107,137 +107,6 @@ p {
   flex-direction: row-reverse;
 }
 
-/* footer section */
-
-/* 
-footer {
-  width: 100%;
-}
-a {
-  text-decoration: none;
-  color: #ebebeb;
-}
-.logo_name {
-  font-size: 24px;
-  margin-left: 5px;
-}
-.logo-details {
-  display: flex;
-  flex-direction: column;
-}
-.content {
-  display: flex;
-}
-
-.top,
-.link-boxes {
-  justify-content: space-between;
-}
-.top {
-  display: flex;
-  padding: 22px 100px;
-}
-
-.link-boxes {
-  display: flex;
-  padding: 22px 100px;
-  gap: 100px;
-}
-.bottom-details {
-  padding: 22px 100px;
-  background-color: #0f0844;
-}
-.bottom_text {
-  display: flex;
-  justify-content: space-between;
-}
-.box {
-  list-style: none;
-}
-
-.fa-slack {
-  font-size: 20px;
-}
-
-.media-icons .fab {
-  font-size: 13px;
-  margin-right: 7px;
-  border-radius: 50%;
-  padding: 11px 12px;
-}
-
-.fa-facebook-f {
-  background-color: #4267b2;
-}
-.fa-twitter {
-  background-color: #1da3f3;
-}
-
-.fa-instagram {
-  background-color: #e12f6d;
-}
-.fa-linkedin-in {
-  background-color: #0277b5;
-}
-.fa-youtube {
-  background-color: #e02144;
-}
-
-.copyright_text a {
-  margin-right: 10px;
-}
-
-.box .link_name {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 14px;
-  color: #374d70;
-}
-
-.media {
-  display: flex;
-}
-
-.box > li {
-  margin-bottom: 12px;
-}
-.box > li > a {
-  font-size: 15px;
-  color: #8a91a3;
-}
-
-input {
-  padding: 5px 20px;
-  border-radius: 5px;
-}
-
-input[type="button"] {
-  width: 100%;
-  color: #130c59;
-  background-color: #d0cedf;
-  font-size: 18px;
-  font-weight: 600;
-}
-input[type="text"] {
-  color: #ebebeb;
-  background-color: #130c59;
-  font-size: 16px;
-
-  padding: 10px 10px;
-  border: 1px solid #ebebeb;
-  width: 89%;
-}
-
-input[type="text"]::placeholder {
-  color: #afafb6;
-  font-size: 14px;
-}
-
-.input-box {
-  width: 249px;
-}
-
- */
 .footer-description {
   margin: 18px 0px;
 }
@@ -555,11 +424,7 @@ a {
   display: flex;
   align-items: center;
 }
-.content {
-  /* padding: 0 100px; */
-}
-.bottom-details {
-}
+
 .top,
 .link-boxes {
   justify-content: space-between;
@@ -666,8 +531,6 @@ input[type="text"]::placeholder {
 
 .input-box {
   width: 249px;
-  /* position: relative;
-  left: -66px; */
 }
 
 /* footer */
@@ -699,4 +562,99 @@ h1.heading {
   display: flex;
   justify-content: center;
   margin: 80px 0;
+}
+
+.handburger {
+  display: none;
+  fill: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #636c79;
+    color: #fff;
+    padding: 28px 50px 28px 80px;
+  }
+
+  .section-container {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #636c79;
+    padding-bottom: 130px;
+    flex-direction: column-reverse;
+    padding-top: 130px;
+    gap: 40px;
+  }
+
+  .bussiness-fivth {
+    background-color: #fff;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 37px 112px;
+    flex-direction: column;
+  }
+
+  .teams {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .first-left-container {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 604px) {
+  .handburger {
+    display: inline-flex;
+    margin-left: 20px;
+  }
+  .items {
+    display: none;
+  }
+
+  .targets {
+    font-family: "Roboto";
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .price {
+    padding: 0;
+    margin: 60px 60px;
+  }
+  .top {
+    display: flex;
+    padding: 34px 0px;
+    border-bottom: 1px solid #666464;
+    margin: 22px 39px;
+    padding-bottom: 34px;
+  }
+  .link-boxes {
+    display: flex;
+    padding: 0px 37px;
+    font-family: "Lato", sans-serif;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+  }
+  img[alt="data-img"] {
+    width: 100%;
+    height: 491px;
+  }
+  nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #636c79;
+    color: #fff;
+    padding: 28px 28px 28px 27px;
+  }
 }
